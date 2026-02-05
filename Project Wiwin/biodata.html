@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Wiwin 💖</title>
+
+  <style>
+    :root{
+      --pink: #ff4da6;
+      --pink2: #ff7bbd;
+      --blue: #5ad1ff;
+      --white: #fff;
+      --bg: #ffe3f2;
+    }
+
+    *{ margin:0; padding:0; box-sizing:border-box; }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #ffe3f2, #ffd1e8);
+      color: #333;
+    }
+
+    .container{
+      width: 90%;
+      max-width: 500px;
+      margin: 60px auto;
+      text-align: center;
+    }
+
+    h1{
+      color: #ff2e8c;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+    }
+
+    .card{
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      border: 1px solid rgba(0,0,0,0.1);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .item{
+      display: flex;
+      justify-content: space-between;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .item:last-child{
+      border-bottom: none;
+    }
+
+    .label{
+      font-weight: bold;
+      color: #ff2e8c;
+    }
+
+    .value{
+      color: #555;
+    }
+
+    .note{
+      margin-top: 18px;
+      font-size: 0.95em;
+      color: #555;
+    }
+
+    .buttons{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .btn{
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 12px;
+      border: 2px solid var(--pink);
+      color: #fff;
+      background: linear-gradient(90deg, var(--pink), var(--pink2));
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .back{
+      background: #fff;
+      color: #ff2e8c;
+      border: 2px solid #ff2e8c;
+    }
+
+    .back:hover{
+      background: #ff2e8c;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Biodata</h1>
+
+  <div class="card">
+    <div class="item">
+      <span class="label">Nama</span>
+      <span class="value">Wiwin Wulandari</span>
+    </div>
+
+    <div class="item">
+      <span class="label">Tempat, Tanggal Lahir</span>
+      <span class="value">Cirebon, 31 Mei 2008 </span>
+    </div>
+
+    <div class="item">
+      <span class="label">Pacar</span>
+      <span class="value">Fairuztaqi Abdillah</span>
+    </div>
+  </div>
+
+  <p class="note">udah kalii yaa biodata segini ajaa, ndausahh panjang panjang tapi semoga kamu sukaa... 💕</p>
+
+  <div class="buttons">
+    <a href="index.html" class="btn back">← Kembali</a>
+    <a href="About.html" class="btn next">Next →</a>
+</div>
+
+</body>
+</html>
