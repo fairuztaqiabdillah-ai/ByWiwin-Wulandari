@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sepucuk Surat</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Pacifico&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      background: linear-gradient(180deg, #ffe3f2, #ffd1e8);
+      font-family: 'Playfair Display', serif;
+      padding: 40px 10px;
+    }
+
+    .letter{
+      max-width: 720px;
+      margin: auto;
+      background: #fffafc;
+      padding: 40px 35px;
+      border-radius: 12px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      animation: fade 1s ease;
+    }
+
+    .letter::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        repeating-linear-gradient(
+          transparent,
+          transparent 28px,
+          rgba(0,0,0,0.03) 29px
+        );
+      pointer-events:none;
+      border-radius: 12px;
+    }
+
+    h1{
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      color: #ff4da6;
+      margin-bottom: 25px;
+    }
+
+    p{
+      margin-bottom: 18px;
+      line-height: 1.9;
+      font-size: 1.05em;
+      color: #333;
+    }
+
+    .signature{
+      margin-top: 40px;
+      text-align: right;
+      font-family: 'Pacifico', cursive;
+      color: #ff4da6;
+      font-size: 1.4em;
+    }
+
+    .nav{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .btn{
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: bold;
+      border: 2px solid #ff4da6;
+      background: linear-gradient(90deg, #ff4da6, #ff9acb);
+      color: #fff;
+      transition: 0.2s;
+    }
+
+    .btn.back{
+      background: #fff;
+      color: #ff4da6;
+    }
+
+    .btn:hover{
+      transform: translateY(-2px);
+    }
+
+    @keyframes fade{
+      from{opacity:0; transform: translateY(20px);}
+      to{opacity:1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<div class="letter">
+  <h1>Sepucuk Surat</h1>
+
+  <p>
+    Haiii… kalau kamu lagi baca ini, berarti kamu kepo kann makanya pencet tombol Next.
+  </p>
+
+  <p>
+    Jadi gini, aku tuh sebenernya bingung mau mulai dari mana,
+    soalnya kalau ngomongin kamu tuh panjang.
+    Kayak antrian gorengan di sore hari.
+  </p>
+
+  <p>
+    Aku nggak tau sejak kapan, tapi tiap hari tuh rasanya
+    pengen cerita ke kamu. Hal random,
+    hal penting, sampe hal nggak penting tapi tetep pengen diceritain.
+    Padahal ya… nggak penting-penting amat.
+  </p>
+
+  <p>
+    Kamu itu lucu. Bukan lucu yang joget-joget ya,
+    tapi lucu yang bikin aku senyum tanpa sadar.
+    Kadang cuma dari cara kamu ngomel,
+    kadang dari cara kamu diem.
+    gatau kenapaa, Lucuuu ajaa
+  </p>
+
+  <p>
+    Aku tau kamu kadang capek,
+    kadang kesel,
+    kadang pengen rebahan seharian tanpa mikirin apa-apa.
+    Tapi serius deh,
+    kamu tetap hebat walaupun lagi ngerasa biasa aja.
+  </p>
+
+  <p>
+    Intinya sih…
+    aku bersyukur bisa kenal kamu.
+    Bisa deket sama kamu. Bahkan bisa dapet izinn mamah buat ajak main xixixii.
+  </p>
+
+  <p>
+    Udah ya segini dulu,
+    nanti kalau diterusin takut jadi novel.
+  </p>
+
+  <div class="signature">
+    — Fairuztaqi, Hamba Allah
+  </div>
+
+  <div class="nav">
+    <a href="About.html" class="btn back">← Kembali</a>
+    <a href="TheEnd.html" class="btn">Next →</a>
+  </div>
+</div>
+
+</body>
+</html>
